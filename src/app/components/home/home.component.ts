@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { CSP_NONCE, Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { ToastrService } from 'ngx-toastr';
 import { Profile } from 'src/app/models/profile.model';
