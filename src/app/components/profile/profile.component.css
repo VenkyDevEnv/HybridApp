@@ -1,0 +1,56 @@
+.profile-body {
+  background-color: #3fb590;
+  height: 100%;
+}
+.container {
+  justify-content: center;
+  display: flex;
+}
+.card {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  cursor: pointer;
+}
+
+.verified {
+  justify-content: flex-start;
+  display: flex;
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.star {
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.likeHer {
+  font-size: 14px;
+  text-align: center;
+  padding-right: 5px;
+  font-weight: 900;
+  margin-top: 3px;
+}
+
+.noButton {
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  padding: 0px 18px;
+  height: 28px;
+  width: 34px;
+  text-align: center;
+  padding-left: 5px;
+}
+
+.yesButton {
+  margin-left: 4px;
+  border-radius: 20px;
+  padding: 0px 18px;
+  height: 28px;
+  width: 44px;
+  text-align: center;
+  padding-left: 5px;
+}

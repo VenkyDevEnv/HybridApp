@@ -1,0 +1,85 @@
+.mainDiv {
+  padding: 15px 15px;
+  padding-right: 15px;
+  background-color: #33a2db !important;
+}
+.heading {
+  justify-content: space-between;
+  display: flex;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.profileHeading {
+  justify-content: flex-start;
+  display: flex;
+  color: #ffff;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+.btn {
+  border-color: #fff;
+  border-radius: 15px;
+  border: 2px solid #ffff;
+  font-size: 12px;
+  color: #ffff;
+  font-weight: 400;
+}
+
+.card {
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.elipsis {
+  color: #ffff;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.p {
+  color: white;
+}
+
+.newButton {
+  text-decoration: none;
+  font-weight: 300;
+  border: 1px solid #fff;
+  color: #fff;
+  text-align: center;
+  border-radius: 20px;
+  padding: 5px 20px;
+  width: 80px;
+  height: 26px;
+  margin-bottom: 5px !important;
+  margin-left: 5px;
+}
+.btn-text {
+  font-size: 12px;
+  font-weight: 200;
+  padding-bottom: 13px;
+  margin-bottom: 5px;
+  width: 36px;
+  height: 30px;
+}
+.yesButton {
+  font-size: 16px;
+  border-radius: 20px;
+  padding: 5px 20px;
+  margin-right: 10px;
+}
+
+.noButton {
+  font-size: 16px;
+  border-radius: 20px;
+  border: 1px solid gray;
+  padding: 5px 20px;
+  color: gray;
+}
+
+.container {
+  margin-top: 20px !important;
+  padding: 0;
+}

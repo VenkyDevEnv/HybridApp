@@ -1,0 +1,73 @@
+<div class="profile-body">
+  <div class="container h-100">
+    <div class="row card-group">
+      <div class="col-md-6 col-lg-3 mt-3">
+        <div class="card" style="width: 18rem">
+          <img
+            class="card-img-top"
+            style="
+              border-top-left-radius: 20px;
+              border-top-right-radius: 20px;
+              height: 18rem;
+              width: 18rem;
+            "
+            [src]="profile.img ? profile.img : 'fallback-image.jpg'"
+            alt="Card image cap"
+          />
+
+          <div class="card-body">
+            <div class="verified">
+              <p style="color: blue">
+                <i
+                  class="fa-regular fa-circle-check"
+                  style="padding: 3px; background-color: #ffff"
+                ></i
+                >Verified
+              </p>
+              <p style="color: blueviolet; padding-left: 4px">
+                <i
+                  class="fa-solid fa-crown"
+                  style="padding-left: 6px; padding-right: 2px"
+                ></i
+                >Permium NRI
+              </p>
+            </div>
+
+            <h5 class="card-title">{{ profile.name }}</h5>
+            <p class="card-text">
+              {{ profile.address }}
+            </p>
+            <hr />
+            <div class="cardFooter">
+              <p class="star" (click)="onClickShortList()">
+                <i class="fa-regular fa-star" style="padding-right: 3px"></i
+                >Shortlist
+              </p>
+              <div style="display: flex; justify-content: center">
+                <p class="likeHer">Like her?</p>
+                <button class="btn btn-light noButton" (click)="onClickNo()">
+                  <i
+                    class="fa-solid fa-xmark"
+                    style="padding-left: 5px; color: gray"
+                  ></i>
+                </button>
+                <mat-card-actions>
+                  <button
+                    class="btn btn-warning yesButton"
+                    (click)="onClickYes()"
+                    (click)="navigateNext()"
+                  >
+                    <i
+                      class="fa-solid fa-check"
+                      style="padding-left: 10px; color: #ffff"
+                    ></i>
+                  </button>
+                </mat-card-actions>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
